@@ -91,6 +91,36 @@ header {
 
 }
 
+section {
+    width: 350px;
+    margin: 0 auto
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0rem;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2,section article p {
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px ) {
     .col-xs-1{width: 8.33%;}
     .col-xs-2{width: 16.66%;}
@@ -186,7 +216,7 @@ header {
 }
 
 .product-box h3{
-    font-size: 22px;
+    font-size: 14px;
     font-weight: normal;
     margin: 5px;
     overflow: hidden;
