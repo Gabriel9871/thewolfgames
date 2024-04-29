@@ -45,9 +45,9 @@ html::-webkit-scrollbar{
 }
 
 .nav-item .nav-link:hover{
-    background-color: white;
+    background-color: #1E3F20;
     border-radius: 5px;
-    color: black;
+    color: white;
 
 }
 
@@ -228,4 +228,5 @@ body{
     background-color:#F7FFF7
 
 }
+
 
