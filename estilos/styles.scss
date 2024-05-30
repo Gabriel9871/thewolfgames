@@ -1,0 +1,118 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+}
+
+.contenido{
+    background-color: white;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #848FA5;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+#navbar{
+    background-color: #848FA5;
+}
+
+#logoimg{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+
+}
+
+.navbar-nav{
+    margin-left: 50px;
+}
+
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+    background-color: #1E3F20;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 13px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+
+  .productos-1{
+    text-align: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
